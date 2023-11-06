@@ -4,19 +4,19 @@
     {
         static void Main()
         {
-            Console.Write("Введіть значення m: ");
+            Console.WriteLine("Введіть значення m: ");
             double m = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введіть значення n: ");
+            Console.WriteLine("Введіть значення n: ");
             double n = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введіть значення a: ");
+            Console.WriteLine("Введіть значення a: ");
             double a = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введіть значення b: ");
+            Console.WriteLine("Введіть значення b: ");
             double b = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введіть значення x: ");
+            Console.WriteLine("Введіть значення x: ");
             double x = Convert.ToDouble(Console.ReadLine());
 
             double z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt(m * m * m * n) + n * m + m * m - m);
