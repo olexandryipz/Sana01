@@ -1,29 +1,29 @@
 ﻿using System;
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Введіть значення a: ");
-        double a = Convert.ToDouble(Console.ReadLine());
+        static void Main()
+        {
+            Console.WriteLine("Введіть значення a: ");
+            double a = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введіть значення b: ");
-        double b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введіть значення b: ");
+            double b = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введіть значення c: ");
-        double c = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введіть значення c: ");
+            double c = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Введіть значення d: ");
-        double d = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введіть значення d: ");
+            double d = Convert.ToDouble(Console.ReadLine());
 
-        double x = (a + 2 * b - c + d) / (c * d) + (a + b) / (c - d) - (Math.Pow(a, 2)) / (Math.Pow(b, 2));
-        double y = (5 * (a + b) * (c - d)) / ((1) / (2) * c) + Math.Pow(d, 2) * (Math.Pow(a, 2) - Math.Pow(b, 2)) / (b - a);
-        double z = (((Math.Pow(x, 2) - 2 * x) / (x * x)) - 4 * (Math.Pow(x, 4) + 1)) * (1 - b) / (5 * a + 3 * b);
-        double r = ((1) / (2) * a + (3) / (4) * b - (7) / (5)) / (3 * c + 1) + (1) / (a - c);
+            double x = (a + 2 * b - c + d) / (c * d) + (a + b) / (c - d) - (Math.Pow(a, 2)) / (Math.Pow(b, 2));
+            double y = (5 * (a + b) * (c - d)) / ((1) / (2) * c) + Math.Pow(d, 2) * (Math.Pow(a, 2) - Math.Pow(b, 2)) / (b - a);
+            double z = (((Math.Pow(x, 2) - 2 * x) / (x * x)) - 4 * (Math.Pow(x, 4) + 1)) * (1 - b) / (5 * a + 3 * b);
+            double r = ((1) / (2) * a + (3) / (4) * b - (7) / (5)) / (3 * c + 1) + (1) / (a - c);
 
-        Console.WriteLine("Значення x: " + x);
-        Console.WriteLine("Значення y: " + y);
-        Console.WriteLine("Значення z: " + z);
-        Console.WriteLine("Значення r: " + r);
+            Console.WriteLine("Значення x: " + x);
+            Console.WriteLine("Значення y: " + y);
+            Console.WriteLine("Значення z: " + z);
+            Console.WriteLine("Значення r: " + r);
+        }
     }
-}

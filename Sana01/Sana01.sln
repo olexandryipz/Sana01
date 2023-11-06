@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{52432A0A-D555-423F-B88A-95D74E99CF56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearExpressions1", "LinearExpressions1\LinearExpressions1.csproj", "{52432A0A-D555-423F-B88A-95D74E99CF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearExpressions2", "LinearExpressions2\LinearExpressions2.csproj", "{D3D1DD98-B8D6-41DA-8F6A-B06CF340907D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{52432A0A-D555-423F-B88A-95D74E99CF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52432A0A-D555-423F-B88A-95D74E99CF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52432A0A-D555-423F-B88A-95D74E99CF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D1DD98-B8D6-41DA-8F6A-B06CF340907D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D1DD98-B8D6-41DA-8F6A-B06CF340907D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D1DD98-B8D6-41DA-8F6A-B06CF340907D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D1DD98-B8D6-41DA-8F6A-B06CF340907D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
